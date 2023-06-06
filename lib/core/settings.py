@@ -46,7 +46,7 @@ INVALID_FILENAME_CHAR_REPLACEMENT = "_"
 
 OUTPUT_FORMATS = ("simple", "plain", "json", "xml", "md", "csv", "html", "sqlite", "mysql", "postgresql")
 
-COMMON_EXTENSIONS = ("php", "jsp", "asp", "aspx", "do", "action", "cgi", "html", "htm", "js", "tar.gz")
+COMMON_EXTENSIONS = ("php", "jsp", "asp", "aspx", "do", "action", "cgi", "html", "htm", "js", "tar.gz", "zip")
 
 MEDIA_EXTENSIONS = ("webm", "mkv", "avi", "ts", "mov", "qt", "amv", "mp4", "m4p", "m4v", "mp3", "swf", "mpg", "mpeg", "jpg", "jpeg", "pjpeg", "png", "woff", "svg", "webp", "bmp", "pdf", "wav", "vtt")
 

@@ -1,0 +1,29 @@
+{
+    "info": {
+        "args": "dirsearch.py -l url.txt -e * -i 200,301,302 --format json -o target.json",
+        "time": "Tue Jun  6 16:24:41 2023"
+    },
+    "results": [
+        {
+            "content-length": 902,
+            "content-type": "image/x-icon",
+            "redirect": "",
+            "status": 200,
+            "url": "http://accplay.douyu.com/favicon.ico"
+        },
+        {
+            "content-length": 45,
+            "content-type": "application/json",
+            "redirect": "",
+            "status": 200,
+            "url": "http://accplay.douyu.com/login"
+        },
+        {
+            "content-length": 38,
+            "content-type": "application/json",
+            "redirect": "",
+            "status": 200,
+            "url": "http://accplay.douyu.com/logout"
+        }
+    ]
+}

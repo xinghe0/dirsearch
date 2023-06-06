@@ -378,7 +378,6 @@ class Controller:
 
                 if not parsed.netloc:
                     parsed = urlparse(f"//{options['urls'][0]}")
-
                 filename = get_valid_filename(f"{parsed.path}_")
                 filename += time.strftime("%y-%m-%d_%H-%M-%S")
                 filename += f".{self.get_output_extension()}"
