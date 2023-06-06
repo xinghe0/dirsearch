@@ -8,4 +8,4 @@
 """
 import os
 def dirsearch_cmd(path):
-    os.system(f'python dirsearch.py -l {path} -e "*" -i 200,301,302 --format html -o {path}_dir_result.html')
+    os.system(f'python common/dirsearch/dirsearch.py -l {path} -e "*" -i 200,301,302 --format html -o {path}_dir_result.html')

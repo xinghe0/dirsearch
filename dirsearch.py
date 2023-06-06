@@ -64,7 +64,6 @@ def main():
     options.update(parse_options())
 
     from lib.controller.controller import Controller
-    print("最终的执行程序")
     Controller()
 
 
