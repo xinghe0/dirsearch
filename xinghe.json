@@ -1,0 +1,92 @@
+{
+    "info": {
+        "args": "dirsearch.py -u http://172.19.73.26 -i 200,301,302 --format json -o xinghe.json",
+        "time": "Thu Jun  8 14:17:22 2023"
+    },
+    "results": [
+        {
+            "content-length": 351,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/cache/",
+            "status": 301,
+            "url": "http://172.19.73.26/cache"
+        },
+        {
+            "content-length": 688,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/core/fragments/moduleInfo.phtml"
+        },
+        {
+            "content-length": 350,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/core/",
+            "status": 301,
+            "url": "http://172.19.73.26/core"
+        },
+        {
+            "content-length": 23126,
+            "content-type": "image/x-icon",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/favicon.ico"
+        },
+        {
+            "content-length": 353,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/gallery/",
+            "status": 301,
+            "url": "http://172.19.73.26/gallery"
+        },
+        {
+            "content-length": 353,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/modules/",
+            "status": 301,
+            "url": "http://172.19.73.26/modules"
+        },
+        {
+            "content-length": 2183,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/modules/"
+        },
+        {
+            "content-length": 356,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/phpmyadmin/",
+            "status": 301,
+            "url": "http://172.19.73.26/phpmyadmin"
+        },
+        {
+            "content-length": 8136,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/phpmyadmin/"
+        },
+        {
+            "content-length": 8136,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/phpmyadmin/index.php"
+        },
+        {
+            "content-length": 351,
+            "content-type": "text/html",
+            "redirect": "http://172.19.73.26/style/",
+            "status": 301,
+            "url": "http://172.19.73.26/style"
+        },
+        {
+            "content-length": 18,
+            "content-type": "text/html",
+            "redirect": "",
+            "status": 200,
+            "url": "http://172.19.73.26/update.php"
+        }
+    ]
+}

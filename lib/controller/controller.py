@@ -178,7 +178,6 @@ class Controller:
                 )
                 exit(1)
 
-        interface.header(BANNER)
         interface.config(len(self.dictionary))
 
         try:
@@ -268,7 +267,6 @@ class Controller:
                 if not self.old_session:
                     current_time = time.strftime("%H:%M:%S")
                     msg = f"{NEW_LINE}[{current_time}] Starting: {current_directory}"
-
                     interface.warning(msg)
 
                 self.fuzzer.set_base_path(current_directory)
